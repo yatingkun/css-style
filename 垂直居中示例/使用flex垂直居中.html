@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<title>test</title>
+  <style>
+  #box {
+  	margin-top:100px;
+    height: 300px;
+    background: #ddd;
+    display: flex;
+    align-items: center;
+}
+#child {
+    width: 300px;
+    height: 200px;
+    background: #8194AA;
+    line-height: 200px;
+    
+    
+}
+  </style>
+</head>
+<body>
+<div id="box">雾霾天气，太久没有打球了</div>
+<div id="box">
+	<div id="child">块级元素的内容垂直居中</div>
+</div>
+</body>
+</html>
+<!--使用flex既可以使文本元素居中，也可以使块级元素居中，此时的设置块级元素的height和ling-height相等可以让块级元素内的元素也垂直居中>
